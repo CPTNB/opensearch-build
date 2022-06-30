@@ -8,7 +8,7 @@ ci:
     name: opensearchstaging/ci-runner:ci-runner-centos7-opensearch-dashboards-build-v2
 components:
   - name: OpenSearch-Dashboards
-    ref: tags/hapi-post-upgrade
+    ref: hapi-upgrade
     repository: https://github.com/CPTNB/OpenSearch-Dashboards.git
     checks:
       - npm:package:version
