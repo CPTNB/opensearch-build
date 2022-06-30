@@ -8,8 +8,8 @@ ci:
     name: opensearchstaging/ci-runner:ci-runner-centos7-opensearch-dashboards-build-v2
 components:
   - name: OpenSearch-Dashboards
-    ref: tags/2.0.0
-    repository: https://github.com/opensearch-project/OpenSearch-Dashboards.git
+    ref: tags/hapi-post-upgrade
+    repository: https://github.com/CPTNB/OpenSearch-Dashboards.git
     checks:
       - npm:package:version
   - name: functionalTestDashboards
