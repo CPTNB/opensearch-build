@@ -12,21 +12,21 @@ components:
     repository: https://github.com/CPTNB/OpenSearch-Dashboards.git
     checks:
       - npm:package:version
-  - name: functionalTestDashboards
-    repository: https://github.com/opensearch-project/opensearch-dashboards-functional-test.git
-    ref: main
-  - name: queryWorkbenchDashboards
-    repository: https://github.com/opensearch-project/sql.git
-    working_directory: workbench
-    ref: tags/2.0.0.0
-  - name: observabilityDashboards
-    repository: https://github.com/opensearch-project/observability.git
-    working_directory: dashboards-observability
-    ref: tags/2.0.0.0
-  - name: ganttChartDashboards
-    repository: https://github.com/opensearch-project/dashboards-visualizations.git
-    working_directory: gantt-chart
-    ref: tags/2.0.0.0
-  - name: securityDashboards
-    repository: https://github.com/opensearch-project/security-dashboards-plugin.git
-    ref: tags/2.0.0.0
+  # - name: functionalTestDashboards
+  #   repository: https://github.com/opensearch-project/opensearch-dashboards-functional-test.git
+  #   ref: main
+  # - name: queryWorkbenchDashboards
+  #   repository: https://github.com/opensearch-project/sql.git
+  #   working_directory: workbench
+  #   ref: tags/2.0.0.0
+  # - name: observabilityDashboards
+  #   repository: https://github.com/opensearch-project/observability.git
+  #   working_directory: dashboards-observability
+  #   ref: tags/2.0.0.0
+  # - name: ganttChartDashboards
+  #   repository: https://github.com/opensearch-project/dashboards-visualizations.git
+  #   working_directory: gantt-chart
+  #   ref: tags/2.0.0.0
+  # - name: securityDashboards
+  #   repository: https://github.com/opensearch-project/security-dashboards-plugin.git
+  #   ref: tags/2.0.0.0
